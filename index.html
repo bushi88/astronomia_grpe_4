@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap-utilities.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Astronomie et Espace</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="header-wrapper">
+        <div class="logo">
+          <a href="#"><img src="img/logo.png" alt="logo_Astronomia" /></a>
+        </div>
+        <h1>Astronomia</h1>
+        <div id="textAni" class="line">
+          <h2>Bienvenue sur notre site !</h2>
+        </div>
+      </div>
+
+      <a href="#"><img src="./img/space_img.jpg" alt="espace" class="banniere" /></a>
+
+      <nav id="header-nav">
+
+        <div class="">
+          <div id="fusee"></div>
+          <div id="nightsky"></div>
+          <button onclick="depart()" id="start">- !! START !! -</button>
+        </div>
+
+        <ul class="main-nav row">
+          <li class="col-2"><a href="#">Astronomia</a></li>
+          <li class="col-2"><a href="#">Forum</a></li>
+          <li class="col-2"><a href="#">Actualité</a></li>
+          <li class="col-2"><a href="#">Communauté</a></li>
+          <li class="col-2"><a href="#">Météo</a></li>
+          <li class="col-2"><a href="#">Activité</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="main-wrapper" class="container-fluid">
+        <div class="carousel">
+          <div class="carousel__figure">
+            <img src="./img/car5.jpg" alt="astronaute" class="carousel__figure--pic" />
+            <img src="./img/car4.jpg" alt="fusee" class="carousel__figure--pic" />
+            <img src="./img/car2.jpeg" alt="base" class="carousel__figure--pic" />
+          </div>
+        </div>
+        <div class="row m-2">
+          <section class="left-part col-6">
+            <article class="article-l1">
+              <header class="article-header">
+                <div class="puces"></div>
+                <h2>ARTICLE</h2>
+              </header>
+              <p>
+                Alios autem lorem ipsum dolor sit amet lorem ipsum dolor sit
+                amet lorem ipsum dolor sit amet, elit. Phasellus placerat augue
+                in volutpat interdum. Nulla facilisi. Praesent at egestas felis.
+                Integer quis dictum velit. Nunc pellentesque risus eget auctor
+                suscipit. Phasellus blandit eu arcu vel rutrum. Nullam a lacinia
+                diam. Morbi auctor urna ut urna euismod ullamcorper. Donec a
+                mattis risus. Nulla a purus in neque varius fermentum. Curabitur
+                odio nibh, lobortis eu interdum eu, facilisis nec turpis.
+                Vivamus rutrum.
+              </p>
+              <div>
+                <img src="./img/car1.jpg" alt="vaisseau" />
+              </div>
+            </article>
+
+            <article class="article-l2">
+              <header class="article-header">
+                <div class="puces"></div>
+                <h2>ARTICLE</h2>
+              </header>
+              <p>
+                Alios autem lorem ipsum dolor sit amet lorem ipsum dolor sit
+                amet lorem ipsum dolor sit amet, elit. Phasellus placerat augue
+                in volutpat interdum. Nulla facilisi. Praesent at egestas felis.
+                Integer quis dictum velit. Nunc pellentesque risus eget auctor
+                suscipit. Phasellus blandit eu arcu vel rutrum. Nullam a lacinia
+                diam. Morbi auctor urna ut urna euismod ullamcorper. Donec a
+                mattis risus. Nulla a purus in neque varius fermentum. Curabitur
+                odio nibh, lobortis eu interdum eu, facilisis nec turpis.
+                Vivamus rutrum. Nulla a purus in neque varius fermentum.
+                Curabitur odio nibh, lobortis eu interdum eu, facilisis nec
+                turpis. Vivamus rutrum.
+              </p>
+              <p>
+                <img src="./img/car3.jpg" alt="astronaute" />
+              </p>
+            </article>
+          </section>
+
+          <section class="right-part col-6">
+            <article class="article-r1">
+              <header class="article-header">
+                <div class="puces"></div>
+                <h2>BLOG</h2>
+              </header>
+              <p>
+                Alios autem lorem ipsum dolor sit amet lorem ipsum dolor sit
+                amet lorem ipsum dolor sit amet, elit. Phasellus placerat augue
+                in volutpat interdum. Nulla facilisi. Praesent at egestas felis.
+                Integer quis dictum velit. Nunc pellentesque risus eget auctor
+                suscipit. Phasellus blandit eu arcu vel rutrum. Nullam a lacinia
+                diam. Morbi auctor urna ut urna euismod ullamcorper.
+              </p>
+            </article>
+            <article class="article-r2">
+              <header class="article-header">
+                <div class="puces"></div>
+                <h2>BLOG</h2>
+              </header>
+              <p>
+                <span class="aller">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Odio, reprehenderit! Vitae corrupti odit, incidunt, fugiat
+                  labore molestias sequi ipsam modi amet excepturi neque
+                  delectus! Hic placeat, aliquam atque vel id sed numquam esse
+                  laudantium, illum labore tenetur?</span>
+              </p>
+
+              <div>
+                <img src="./img/car7.jpg" alt="base" />
+              </div>
+
+              <p>
+                <span class="retour">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Odio, reprehenderit! Doloribus voluptatem unde vitae corrupti
+                  odit, incidunt, fugiat labore molestias sequi ipsam modi amet
+                  excepturi neque delectus! Hic placeat, aliquam atque vel id
+                  sed numquam esse laudantium.</span>
+              </p>
+
+              <div class="r2-img">
+                <img src="./img/car6.jpg" alt="base" />
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer-wrapper">
+        <div class="">
+          <div class="logo">
+            <a href="#"><img src="img/logo.png" alt="logo_Astronomia" /></a>
+          </div>
+          <div class="">
+            <ul class="menu_footer row">
+              <li class="col-2"><a href="#">item 1</a></li>
+              <li class="col-2"><a href="#">item 2</a></li>
+              <li class="col-2"><a href="#">item 3</a></li>
+              <li class="col-2"><a href="#">item 4</a></li>
+              <li class="col-2"><a href="#">item 5</a></li>
+              <li class="col-2"><a href="#">item 6</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="network">
+          <a href="http://twitter.fr" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="http://facebook.fr" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="http://flickr.fr" target="_blank"><i class="fa fa-flickr"></i></a>
+          <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>
+          <span class="opacity"><a href="#">&#x21E7; revenir en haut de la page &#x21E7;</a></span>
+        </p>
+      </div>
+      <p class="text-center m-2">
+        From Alexandre, Nicolas, Dylan et Djamel; © 2022
+      </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/fusee.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  </body>
+
+</html>
