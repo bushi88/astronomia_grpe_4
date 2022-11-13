@@ -1,5 +1,6 @@
-### astronomia_grpe_4
+# astronomia_grpe_4
 
-page site astronomie
+## page site astronomie
 
-projet collaboratif formation DWWM CCI : Alexandre, Dylan, Nicolas et Djamel
+### projet collaboratif formation DWWM CCI 2022 - 2023
+### de Alexandre, Dylan, Nicolas et Djamel
